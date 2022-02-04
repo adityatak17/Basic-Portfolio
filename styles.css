@@ -14,6 +14,8 @@ body {
     color: white;
     display: inline-block;
     padding: 5px 20px;
+    cursor:cell;
+    text-shadow: 2px 2px red;
 }
 
 
@@ -63,6 +65,7 @@ body {
 .navigation a:hover{
     background-color: #B8D0EB;
     color: #4B5043;
+    text-shadow: 2px 2px whitesmoke;
 }
 
 .navigation a:active{
@@ -82,10 +85,24 @@ body {
     color: azure;
 }
 
+
+.projects-div{
+    text-align: center;
+}
+
 .project-heading {
+    display: inline-block;
+    text-align: center;
     color: #D3FFE9;
     margin-top: 40px;
-    text-align: center;
+    padding: 5px 20px;
+    border: 5px solid #69D1C5;
+    border-radius: 15px;
+}
+
+.project-heading:hover {
+    background-color: #D3FFE9;
+    color:#2E2F2F;
 }
 
 .projects-images {
