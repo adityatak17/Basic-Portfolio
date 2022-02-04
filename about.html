@@ -9,17 +9,35 @@
     <link rel="icon" type="image/x-icon" href="/images/favicon.png">
 </head>
 <body>
-    <div class="about-me">
-        <ul>
-            <li><a href="https://linkedin.com">LinkedIn Profile</a></li>
-            <li><a href="https://github.com/adityatak17">GitHub Profile</a></li>
-            <li><a href="https://instagram.com">Instagram Profile</a></li>
-            <li>
-                <a href="#" id="date" onmouseover="show_date()" onmouseout="normal_option()">
-                    Current Date & Time
-                </a>
-            </li>
-        </ul>
+    <div>
+        <div class="about-me">
+            <ul>
+                <li><a href="https://linkedin.com">LinkedIn Profile</a></li>
+                <li><a href="https://github.com/adityatak17">GitHub Profile</a></li>
+                <li><a href="https://instagram.com">Instagram Profile</a></li>
+                <li>
+                    <a href="#" id="date" onmouseover="show_date()" onmouseout="normal_option()">
+                        Current Date & Time
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="form-div">
+            
+            <!-- <h1 id="form-heading">CONTACT ME</h1> -->
+            <form class="form-class" autocomplete="off">
+                <fieldset>
+                    <legend>CONTACT ME:</legend>
+                    <input type="text" name="fname" placeholder="Name"><br>
+                    <input type="text" name="fname" placeholder="Phone Number"><br>
+                    <input type="text" name="lname" placeholder="LinkedIn Profile"><br>
+                    <input type="text" name="lname" placeholder="Company Website"><br>
+                    <input type="texta" name="lname" placeholder="Your Proposal"><br>
+                    <input id="form-submit" type="submit" value="Submit"><br>
+                </fieldset>
+            </form>
+        </div>
     </div>
     <script src="MyScript.js"></script>
 </body>
