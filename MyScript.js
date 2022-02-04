@@ -11,8 +11,8 @@ function normal_heading() {
 }
 
 function show_date() {
-    
-    document.getElementById("date").innerHTML = Date();
+    const d = new Date();
+    document.getElementById("date").innerHTML = d.toDateString();
 }
 
 function normal_option() {
