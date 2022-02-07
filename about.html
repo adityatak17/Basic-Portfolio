@@ -24,16 +24,15 @@
         </div>
 
         <div class="form-div">
-            
-            <!-- <h1 id="form-heading">CONTACT ME</h1> -->
+    
             <form class="form-class" autocomplete="off">
-                <fieldset>
-                    <legend>CONTACT ME:</legend>
-                    <input type="text" name="fname" placeholder="Name"><br>
-                    <input type="text" name="fname" placeholder="Phone Number"><br>
-                    <input type="text" name="lname" placeholder="LinkedIn Profile"><br>
-                    <input type="text" name="lname" placeholder="Company Website"><br>
-                    <input type="texta" name="lname" placeholder="Your Proposal"><br>
+                <fieldset id="field-set" onmouseover="legend_change()" onmouseout="legend_base()">
+                    <legend id="legend">CONTACT ME:</legend>
+                    <input type="text" name="name" placeholder="Name" id='name'><br>
+                    <input type="text" name="number" placeholder="Phone Number"><br>
+                    <input type="text" name="linkedin" placeholder="LinkedIn Profile"><br>
+                    <input type="text" name="website" placeholder="Company Website"><br>
+                    <input type="texta" name="proposal" placeholder="Your Proposal"><br>
                     <input id="form-submit" type="submit" value="Submit"><br>
                 </fieldset>
             </form>

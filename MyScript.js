@@ -20,3 +20,14 @@ function normal_option() {
     document.getElementById("date").innerHTML = 
         "Current Date & Time";
 }
+
+function legend_change(){
+    document.getElementById("legend").style.backgroundColor="#B8D0EB";
+    document.getElementById("field-set").style.border="3px solid #BBDBD1";
+
+}
+
+function legend_base(){
+    document.getElementById("legend").style.backgroundColor="#BBDBD1";
+    document.getElementById("field-set").style.border="3px solid #B8D0EB";
+}
